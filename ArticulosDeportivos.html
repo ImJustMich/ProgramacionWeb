@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Articulos deportivos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function CarritoDeCompras(){
+            let Cantidad = parseInt(prompt("Ingrese cantidad a comprar: "))
+            alert("Gracias por comprar "+Cantidad +" articulos.")
+            
+        }
+    </script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        .gallery-section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery-item {
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="Home.html">Home</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="RopaFemenina.html">Ropa Femenina</a>
+        <a href="RopaMaculina.html">Ropa Maculina</a>
+        <a href="ArticulosDeportivos.html">Articulos deportivos</a>
+    </nav>
+
+    <br>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card" class=" rounded mx-auto d-block">
+                <img src="imagenes/Mochila.jpeg" class="card-img-top" alt="carta1">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>MOCHILA QUECHUA NH500</strong></h5>
+                    <h5>$44.000</h5>
+                    <p class="card-text">Una de las mejores opciones que tienes en Decathlon a la hora de elegir una 
+                        mochila para senderismo es el modelo que te presento a continuación.
+                        Tanto para una ruta de un día como para disfrutarla en tus idas y venidas 
+                        urbanas, la mochila Quechua NH500 cuenta con todo lo que buscamos en un macuto 
+                        de estas características: bolsillos suficientes para organizar nuestra carga 
+                        ( 4 compartimentos con 6 bolsillos de cremallera), resistente a la abrasión, 
+                        cómoda con espalda y tirantes acolchados y funda de lluvia.</p>
+                        <p colspan="2" align="center"><input type="button" value="Comprar" name="Comprar" onclick="CarritoDeCompras()"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" class=" rounded mx-auto d-block">
+                <img src="imagenes/Rodilleras.jpg" class="card-img-top" alt="carta2">
+                <div class="card-body">
+                    <h5 class="card-title">RODILLERA DE VOLEY PROFESIONAL NASSAU COVER UNISEX ACOLCHADA</h5>
+                    <h5>$8.000</h5>
+                    <p class="card-text">Desde Nassau priorizamos la protección de los jugadores que nos eligen, por eso llegaron las rodilleras COVER para que puedas desplegar todo tu potencial sin preocupaciones.
+                        Destacadas principalmente por su comodidad, están confeccionadas con PU espumado que le otorga máxima seguridad y protección a tus rodillas.
+                        Presenta una amplia variedad de colores para que elijas el que más te gusta!</p>
+                    <p colspan="2" align="center"><input type="button" value="Comprar" name="Comprar" onclick="CarritoDeCompras()"></p>    
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" class=" rounded mx-auto d-block">
+                <img src="imagenes/Casco.jpg" class="card-img-top" alt="carta3">
+                <div class="card-body">
+                    <h5 class="card-title">Casco de nieve Castle X CX200 visera interior deportiva doble punto xs-3xl- doble o eléctrico</h5>
+                    <h5>$37.000</h5>
+                    <p class="card-text">Diseño de carcasa moderno y agresivo creado con tecnología CAD.
+                        Carcasa construida con moldeo por inyección de compuesto de policarbonato avanzado.
+                        Protector facial de doble panel con revestimiento duro antivaho/antiarañazos, ópticamente correcto.
+                        Sistema de visera solar desplegable fácil de usar, equipado de serie con una visera solar de alta definición con tinte ahumado.</p>
+                    <p colspan="2" align="center"><input type="button" value="Comprar" name="Comprar" onclick="CarritoDeCompras()"></p>   
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card" class=" rounded mx-auto d-block">
+                <img src="imagenes/Guantes.jpg" class="card-img-top" alt="carta4">
+                <div class="card-body">
+                    <h5 class="card-title">GUANTES FITNESS MUJER BLU FIT NEGRO</h5>
+                    <h5>$12.000</h5>
+                    <p class="card-text">Diseño atractivo e innovador.
+                                        Soporte completo de muñeca.
+                                        Fabricado con cuero, lycra y malla</p>
+                    <p colspan="2" align="center"><input type="button" value="Comprar" name="Comprar" onclick="CarritoDeCompras()"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" class=" rounded mx-auto d-block">
+                <img src="imagenes/Lentes.jpg" class="card-img-top" alt="carta5">
+                <div class="card-body">
+                    <h5 class="card-title">Lentes Deportivos</h5>
+                    <h5>$15.000</h5>
+                    <p class="card-text">Innovando a favor del deporte Rudy Project anunció el lanzamiento de tres modelos de lentes con aumento para mejorar el desempeño de deportistas.</p>
+                    <p colspan="2" align="center"><input type="button" value="Comprar" name="Comprar" onclick="CarritoDeCompras()"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card" class=" rounded mx-auto d-block">
+                <img src="imagenes/Pelota.jpeg" class="card-img-top" alt="carta6">
+                <div class="card-body">
+                    <h5 class="card-title">Pelota de futbol</h5>
+                    <h5>$32.000</h5>
+                    <p class="card-text">Balon De Futbol Diseño Mundial 2022 N° 5</p>
+                    <p colspan="2" align="center"><input type="button" value="Comprar" name="Comprar" onclick="CarritoDeCompras()"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<footer>
+    <p>&copy; Tienda Buena Ventura. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
